@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: hsl(164, 41%, 42%);
+    width: 100;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+
+img{width: 150px;
+}
+h1{
+    font-size: 24px;
+    color: rgb(3, 50, 50);
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font: size 16px; ;
+    color: rgb(38, 3, 71);
+}
+.main{
+    display: flex;
+    flex-direction: column
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    background-color: rgb(61, 192, 148);
+}
+.contenedor{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    background-color: aquamarine;
+    font-size: small;
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.caja img{
+   border-radius: 50%; 
+
+}
